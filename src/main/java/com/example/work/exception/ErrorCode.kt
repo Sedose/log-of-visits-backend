@@ -1,0 +1,9 @@
+package com.example.work.exception
+
+enum class ErrorCode {
+    ACCESS_TOKEN_INVALID,
+    CANNOT_GET_USER_BY_FULL_NAME,
+    CANNOT_EXTRACT_PARTS_FROM_USER_FULL_NAME,
+    TOO_FREQUENT_FILE_UPLOADS,
+    DEFAULT,
+}

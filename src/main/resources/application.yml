@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: ${SPRING_DATASOURCE_PASSWORD:root}
+    password: ${SPRING_DATASOURCE_USERNAME:root}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/students}
+jwt:
+  header: 'Authorization'
